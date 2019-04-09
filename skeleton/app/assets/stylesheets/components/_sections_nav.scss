@@ -1,0 +1,17 @@
+.section-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.section-links li{
+  margin: 10px;
+}
+
+.section-links li:hover{
+  background-color: $light-gray;
+  text-decoration: none;
+}
+
+.section-links li:last-child:hover {
+  text-decoration: underline;
+}
